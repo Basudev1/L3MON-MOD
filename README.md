@@ -56,7 +56,7 @@ Change Password
 ## Notes
 
 1. There is no online builder
-2. You have to buld or edit the payload using apk editor or Android Studio
+2. You have to buld or edit the payload using apk editor or Android Studio, the client is here (https://github.com/Basudev1/L3MON-Mod-Client)
 3. Will work on all platforms
 
 ## Whats New
