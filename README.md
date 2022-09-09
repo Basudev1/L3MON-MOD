@@ -35,10 +35,12 @@ or
 
 npm start
 
-6. Set a Username & Password
-   Default login details:
-   usermame: admin
-   password: password
+## Set Username & Password
+
+Default login details:
+
+        usermame: admin
+        password: password
 
 Change Password
 
@@ -49,8 +51,7 @@ Change Password
         - set the `password` as a LOWERCASE MD5 hash
     4. save the file
     5. run `npm start`
-
-7. in your browser navigate to `http://<SERVER IP>`
+    6. in your browser navigate to `http://<SERVER IP>`
 
 ## Notes
 
@@ -74,7 +75,7 @@ Change Password
 
 L3MON-MOD
 
-All Credits goes to ORIGINAL LEMON author, though the project is archived and did not allow to contribute and ExploitSpy has a backdoor, that's why I have to Mod this for you
+All Credits goes to ORIGINAL LEMON author, though the project is archived and did not allow to contribute and XloitSpy has a backdoor, that's why I have to Mod this for you
 
 ## Disclaimer
 
