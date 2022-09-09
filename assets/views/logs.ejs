@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <%- include ('partials/head.ejs'); %>
+  <body>
+    <div class="ui container"><%- include ('partials/header.ejs'); %>
+        <div class="ui segment">
+            <div class="logs">
+                <% logs.forEach((log) => { %>
+                    <div class="logitm <%= log.type %>">
+                      <%= new Date(log.time).toLocaleString('en-IN', { timeZone: 'IST' })
+                      %> => <%= log.type %> | <%= log.message %>
+                    </div>
+                    <% }) %>
+            </div>
+        </div>
+        <% include ('partials/footer.ejs'); %>
+  </body>
+</html>

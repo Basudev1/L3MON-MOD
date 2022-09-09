@@ -1,0 +1,54 @@
+<div class="ui segment">
+  <div class="ui statistics four">
+    <div class="statistic"></div>
+    <div class="statistic">
+      <div class="text value">
+        <% let first = new Date(pageData.firstSeen); %> <%=
+        first.toLocaleString('en-IN',{ timeZone: 'IST' })%>
+      </div>
+      <div class="label">First Seen</div>
+    </div>
+    <div class="statistic">
+      <div class="text value">
+        <% let last = new Date(pageData.lastSeen); %> <%=
+        last.toLocaleString('en-IN', { timeZone: 'IST' })%>
+      </div>
+      <div class="label">Last Seen</div>
+    </div>
+    <div class="statistic"></div>
+  </div>
+</div>
+<div class="ui segment">
+  <div class="ui statistics four">
+    <div class="statistic">
+      <div class="text value">Online: <%= pageData.isOnline %></div>
+    </div>
+    <div class="statistic"></div>
+    <div class="statistic">
+      <div class="text value">IP</div>
+      <div class="label">
+        <%= pageData.dynamicData["clientIP"] %> [<%=
+        pageData.dynamicData.clientGeo.country %>]
+      </div>
+    </div>
+    <div class="statistic"></div>
+    <div class="statistic">
+      <div class="text value">Model</div>
+      <div class="label">
+        Model: <%= pageData.dynamicData["device"].model %>
+      </div>
+      <div class="label">
+        Version: <%= pageData.dynamicData["device"].version %>
+      </div>
+      <div class="label">
+        Manufacture: <%= pageData.dynamicData["device"].manufacture %>
+      </div>
+    </div>
+    <div class="statistic"></div>
+    <div class="statistic">
+      <div class="text value">Time Zone</div>
+
+      <div class="label"><%= pageData.dynamicData.clientGeo.timezone %></div>
+    </div>
+  </div>
+</div>
