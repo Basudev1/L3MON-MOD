@@ -75,7 +75,7 @@ Change Password
 
 L3MON-MOD
 
-All Credits goes to ORIGINAL LEMON author, though the project is archived and did not allow to contribute and XloitSpy has a backdoor, that's why I have to Mod this for you
+All Credits goes to ORIGINAL LEMON author, though the project is archived and did not allow to contribute and XploitSpy has a backdoor, that's why I have to Mod this for you
 
 ## Disclaimer
 
